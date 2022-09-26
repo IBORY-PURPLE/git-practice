@@ -20,7 +20,37 @@
 --------------
  * 현재 iterm을 사용하고 있는데 나의 Woowoo directory안의 파일들을 보고싶어서  
  ls /Woowoo를 했는데 안됨 여기서 ls Woowoo/로 했을 때 작동함!!!
- 
+
+--------------
+# Important contents
+* cp : copy files and directories
+```sh
+1. cp file1 file2
+2. cp -i file1 file2
+3. cp file1 dir1
+4. cp -R dir1 dir2
+```
+
+* mv : move files and directories or rename them
+```sh
+ 1. mv file1 file2
+ 2. mv -i file1 file2
+ 3. mv file1 file2 dir1
+ 4. dir1 dir2
+```
+* rm : delete files and directories **permantely and irreversevely**
+```sh
+ 1. rm file1 file2
+ 2. rm -i file1 file2
+ 3. rm -r dir1 dir2
+```
+* mkdir : make a new directory
+
+---------------
+### WildCards
+![wildcard](/Users/mac/Woowoo/OpenSW)
+
+---------------
  # Questions
  ![long format](https://miro.medium.com/max/1400/0*rLVhxj6mUY_GEH9c.png)
  위 사진에서 교수님께서 file permission부분에서 파일인지 폴더인지 구분할 줄 알아야한다고 하셨는데 그 방법이 궁금합니다.
