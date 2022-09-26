@@ -48,7 +48,7 @@
 
 ---------------
 ### WildCards
-![wildcard](/Users/mac/Woowoo/OpenSW)
+![wildcard](Macintosh HD/Users/mac/Woowoo/OpenSW/wildcard.png)
 
 ---------------
  # Questions
