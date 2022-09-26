@@ -16,3 +16,8 @@
  * cd and ls options
   1. -l : show detailed information(long format)
   2. -lh : same as above, but size in units
+
+--------------
+ *현재 iterm을 사용하고 있는데 나의 Woowoo directory안의 파일들을 보고싶어서  
+ ls /Woowoo를 했는데 안됨 여기서 ls Woowoo/로 했을 때 작동함!!!
+ 
