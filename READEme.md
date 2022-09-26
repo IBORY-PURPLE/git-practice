@@ -1,7 +1,7 @@
  # OpenSource Lecture Note 4
  
- --sh
+ ```sh
  hi
  hi
  hi 
- --
+ ```
