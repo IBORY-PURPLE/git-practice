@@ -47,10 +47,6 @@
 * mkdir : make a new directory
 
 ---------------
-### WildCards
-![wildcard](Macintosh HD/Users/mac/Woowoo/OpenSW/wildcard.png)
-
----------------
  # Questions
  ![long format](https://miro.medium.com/max/1400/0*rLVhxj6mUY_GEH9c.png)
  위 사진에서 교수님께서 file permission부분에서 파일인지 폴더인지 구분할 줄 알아야한다고 하셨는데 그 방법이 궁금합니다.
