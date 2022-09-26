@@ -21,3 +21,6 @@
  * 현재 iterm을 사용하고 있는데 나의 Woowoo directory안의 파일들을 보고싶어서  
  ls /Woowoo를 했는데 안됨 여기서 ls Woowoo/로 했을 때 작동함!!!
  
+ # Questions
+ ![long format](https://miro.medium.com/max/1400/0*rLVhxj6mUY_GEH9c.png)
+ 위 사진에서 교수님께서 file permission부분에서 파일인지 폴더인지 구분할 줄 알아야한다고 하셨는데 그 방법이 궁금합니다.
