@@ -14,7 +14,7 @@
   5. ./[directory name] : relative path
   6. ../[directory name] : relative path
  ```
- * cd and ls options
+ - cd and ls options
  ```sh
   1. -l : show detailed information(long format)
   2. -lh : same as above, but size in units
