@@ -8,12 +8,16 @@ ex) ls -lh > file.txt 이렇게 사용!
 ```
 
 * standard input
+```sh
 1. < : 뒤에 입력으로 들어갈 파일을 적는다. 
 ex) sort < words.txt > sorted_words.txt 이렇게 사용!  
+```
 
 * pipeline 
+```sh
 1. | : 명령어를 연달아 사용할 수 있게 한다.  
 ex) command1 | command2 | command3 이렇게 사용해서 command1의 outputd을 command2의 input으로 사용한다.
+```
 
 * Expansion
 ```sh
@@ -24,10 +28,10 @@ ex) command1 | command2 | command3 이렇게 사용해서 command1의 outputd을
 
 * Backslash
 1. \ : 한 line에 쓸 명령어들을 여러줄에 걸쳐 사용할 수 있게 해준다.  
-ex) ```sh
+ex) ```sh. 
     ls -l \. 
-    > --reverse \. 
-    > --human-readable    
+    > --reverse \.  
+    > --human-readable. 
     ```
 
 ---
