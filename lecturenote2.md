@@ -46,6 +46,8 @@ ex) >ls -l \.
 4. for all other users. 
 
 * "chmod" changes permissions
+ex) chmod 600 some_file
+600에서 각 자릿수마다 위에 말한 2,3,4번에 대한 권한을 부여하는 뜻
 ```sh
 chmod values
 1. 0 = - - -
