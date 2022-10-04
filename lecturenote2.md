@@ -20,6 +20,7 @@ ex) command1 | command2 | command3 이렇게 사용해서 command1의 outputd을
 1. echo : echo뒤의 문자열을 그대로 출력한다
 2. echo * : ls와 비슷하게 사용되어 지금 위치한 directory의 하위 파일,폴더를 보여준다.
 3. echo ~ : 최상의 폴더를 보여준다. 나는 /user/mac이다
+```
 
 * Backslash
 1. \ : 한 line에 쓸 명령어들을 여러줄에 걸쳐 사용할 수 있게 해준다.
@@ -29,4 +30,4 @@ ex) ls -l \
 
 ---
 * Permissions
-![permission](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKgZsXq241Ay_aCFqPToUXkGGcIBJptu8RCA&usqp=CAU)
+![permission](https://i0.wp.com/techbyexample.com/wp-content/uploads/2022/04/file-permissions.drawio-min.png?w=640&ssl=1.png)
