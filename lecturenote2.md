@@ -37,3 +37,8 @@ ex) >ls -l \.
 * Permissions
 
 ![permission](https://i0.wp.com/techbyexample.com/wp-content/uploads/2022/04/file-permissions.drawio-min.png?w=640&ssl=1.png)
+1.(-) 2.(rwx) 3.(rwx) 4.(rwx) r=read, w=write, x=execute
+1. file type. 
+2. read, write, execute permissions for the file owner. 
+3. for the group users?  
+4. for all other users. 
