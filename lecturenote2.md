@@ -24,9 +24,11 @@ ex) command1 | command2 | command3 이렇게 사용해서 command1의 outputd을
 
 * Backslash
 1. \ : 한 line에 쓸 명령어들을 여러줄에 걸쳐 사용할 수 있게 해준다.
-ex) ls -l \
+ex) ```sh
+    ls -l \. 
     > --reverse \
     > --human-readable 
+    ```
 
 ---
 * Permissions
