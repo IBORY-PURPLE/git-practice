@@ -1,50 +1,57 @@
 # OpenSourceSW Lecture Note2
 
-* standard output
+- standard output
+
 ```sh
-1. > : 현재 디렉토리에 있는 파일들을 새로운 text파일로 저장할 때 사용. 
-ex) ls -lh > file.txt 이렇게 사용!  
-2. >> : 위에 처럼 사용이 되는데 이놈은 수정사항이 있으면 덮어서 저장이 아니라 새롭게 저장하는 느낌. 
+1. > : You have arrived as a new text file from the file in your current location.
+ex) ls -lh > file.txt 이렇게 사용!
+2. >> : It is used as above, but if there are modifications, it feels like a new save rather than overwriting it.
 ```
 
-* standard input
+- standard input
+
 ```sh
-1. < : 뒤에 입력으로 들어갈 파일을 적는다. 
-ex) sort < words.txt > sorted_words.txt 이렇게 사용!  
+1. < :< Write the input to the previous command after it. In short, the command < filename
+ex) sort < words.txt > sorted_words.txt   Use like this!
 ```
 
-* pipeline 
+- pipeline
+
 ```sh
-1. | : 명령어를 연달아 사용할 수 있게 한다.  
+1. | : Allows you to use commands in succession.
 ex) command1 | command2 | command3 이렇게 사용해서 command1의 outputd을 command2의 input으로 사용한다.
 ```
 
-* Expansion
+- Expansion
+
 ```sh
-1. echo : echo뒤의 문자열을 그대로 출력한다. 
-2. echo * : ls와 비슷하게 사용되어 지금 위치한 directory의 하위 파일,폴더를 보여준다.  
-3. echo ~ : 최상의 폴더를 보여준다. 나는 /user/mac이다. 
+1. echo : The string after echo is output as it is.
+2. echo * : Used similarly to ls, it shows the subfiles and folders of the current directory.
+3. echo ~ : Shows the best folder. I am /user/mac.
 ```
 
-* Backslash
-1. \ : 한 line에 쓸 명령어들을 여러줄에 걸쳐 사용할 수 있게 해준다.  
+- Backslash
+
+1. \ : Allows you to use commands written on one line across multiple lines.
 
 ---
-* Permissions
 
-![permission](https://i0.wp.com/techbyexample.com/wp-content/uploads/2022/04/file-permissions.drawio-min.png?w=640&ssl=1.png). 
+- Permissions
+
+![permission](https://i0.wp.com/techbyexample.com/wp-content/uploads/2022/04/file-permissions.drawio-min.png?w=640&ssl=1.png).
 
 1.(-) 2.(rwx) 3.(rwx) 4.(rwx) r=read, w=write, x=execute
 
-1. file type. 
-2. read, write, execute permissions for the file owner. 
-3. for the group users?  
-4. for all other users. 
+1. file type.
+2. read, write, execute permissions for the file owner.
+3. for the group users.
+4. for all other users.
 
-* "chmod" changes permissions  
-  
-ex) chmod 600 some_file. 
-600부분에서 각 자릿수마다 위에 말한 2,3,4번에 대한 권한을 부여하는 뜻. 
+- "chmod" changes permissions
+
+ex) chmod 600 some_file.
+In the 600 part, for each digit, it means to give authority to the 2, 3, and 4 above.
+
 ```sh
 chmod values
 1. 0 = - - -
@@ -58,9 +65,12 @@ chmod values
 ```
 
 ---
-* text editors
+
+- text editors
+
 ```sh
 1. vi, vim(고수)
 2. nano(초보자)
 3. gedit(초보자)
 
+```
