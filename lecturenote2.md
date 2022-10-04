@@ -44,3 +44,16 @@ ex) >ls -l \.
 2. read, write, execute permissions for the file owner. 
 3. for the group users?  
 4. for all other users. 
+
+* "chmod" changes permissions
+```sh
+chmod values
+1. 0 = - - -
+2. 1 = - - x
+3. 2 = - w -
+4. 3 = - w x
+5. 4 = r - -
+6. 5 = r - x
+7. 6 = r w -
+8. 7 = r w x
+```
