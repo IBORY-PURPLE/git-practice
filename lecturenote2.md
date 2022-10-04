@@ -48,7 +48,7 @@ ex) >ls -l \.
 * "chmod" changes permissions  
   
 ex) chmod 600 some_file. 
-600에서 각 자릿수마다 위에 말한 2,3,4번에 대한 권한을 부여하는 뜻. 
+600부분에서 각 자릿수마다 위에 말한 2,3,4번에 대한 권한을 부여하는 뜻. 
 ```sh
 chmod values
 1. 0 = - - -
@@ -60,3 +60,11 @@ chmod values
 7. 6 = r w -
 8. 7 = r w x
 ```
+
+---
+* text editors
+```sh
+1. vi, vim(고수)
+2. nano(초보자)
+3. gedit(초보자)
+₩₩₩
