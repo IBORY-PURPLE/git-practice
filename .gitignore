@@ -1,0 +1,13 @@
+#ignore file
+
+/todo
+
+*.a
+
+hi/
+
+hi/*.a
+
+hi/**/*.a
+
+/*.a
