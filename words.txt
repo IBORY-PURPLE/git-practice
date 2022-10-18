@@ -1,5 +1,0 @@
-total 1200
--rw-r--r--  1 mac  staff   1.3K  9 26 19:47 lecture_note_4.md
--rw-r--r--  1 mac  staff     0B 10  4 15:03 lecturenote2.md
--rw-r--r--@ 1 mac  staff   595K  9 26 19:40 wildcard.png
--rw-r--r--  1 mac  staff     0B 10  4 16:55 words.txt
